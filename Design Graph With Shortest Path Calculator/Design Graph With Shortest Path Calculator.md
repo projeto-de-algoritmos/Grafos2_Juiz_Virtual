@@ -1,4 +1,4 @@
-<a class="mr-2 text-label-1 dark:text-dark-label-1 hover:text-label-1 dark:hover:text-dark-label-1 text-lg font-medium" href="/problems/design-graph-with-shortest-path-calculator/">2642. Design Graph With Shortest Path Calculator</a> 
+<a class="mr-2 text-label-1 dark:text-dark-label-1 hover:text-label-1 dark:hover:text-dark-label-1 text-lg font-medium" href="https://leetcode.com/problems/design-graph-with-shortest-path-calculator/description/">2642. Design Graph With Shortest Path Calculator</a> 
 
 **HARD**
 
