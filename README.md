@@ -2,7 +2,7 @@ Temas:
 
  - Grafos2
 
-# NomedoProjeto
+# Grafos2_Juiz_Virtual
 
 **Número da Lista**: X<br>
 **Conteúdo da Disciplina**: XXXXXXXXXX<br>
