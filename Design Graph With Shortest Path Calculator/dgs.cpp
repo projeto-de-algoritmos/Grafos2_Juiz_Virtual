@@ -33,15 +33,17 @@ public:
         queue<pair<int,int>> q;
         q.push({node1,0});
 
-        while(q.size()!=0){
-            pair<int,int> temp=q.front();
+        while(!q.empty()){
+            pair<int,int> temp = q.front();
             q.pop();
 
             if(distancia[temp.first]<temp.second) continue;
 
-            for(int i=0;i<graph[temp.first].size();i++){
-                int nova_distancia=distancia[temp.first]+graph[temp.first][i].second;
-                if(nova_distancia>=distancia[graph[temp.first][i].first]) continue;
+            for(int i=0; i<graph[temp.first].size(); i++){
+
+                int nova_distancia = distancia[temp.first]+graph[temp.first][i].second;
+
+                if(nova_distancia >= distancia[graph[temp.first][i].first]) continue;
 
                 distancia[graph[temp.first][i].first] = nova_distancia;
 
@@ -49,9 +51,9 @@ public:
             }
         }
         if (distancia[node2] == INT_MAX) {
-            return -1;
+            return -1; // Se o nó de destino não for alcançado, retorna -1
         } else {
-            return distancia[node2];
+            return distancia[node2]; /// Retorna a distância mínima
         }
     }
 };
