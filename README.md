@@ -65,10 +65,10 @@ As questões foram submetidas ao leetcode, que possui uma estrutura de submissã
 
 ## Apresentação
  
- Assista ao vídeo abaixo no [youtube]()
+ Assista ao vídeo abaixo no [Youtube](https://youtu.be/jsA9yg0yqUE)
  
 
-Para acessar o vídeo no repositório   [clique aqui]()
+Para acessar o vídeo no repositório   [Clique Aqui](/assets/Reunião%20em%20_General_-20231016_202523-Gravação%20de%20Reunião.mp4)
 
 
 
